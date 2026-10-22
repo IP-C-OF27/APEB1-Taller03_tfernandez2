@@ -6,7 +6,7 @@ public class Ejercicio02 {
         int var2 = 2;
         System.out.println("-------Solución a problema------------------");
         
-        int resultado = (Math.powExact(var1, var2) + var1);
+        double resultado = (Math.pow(var1, var2) + var1);
         
         System.out.println(resultado);
                 
