@@ -4,7 +4,11 @@ public class Ejercicio02 {
         // Resolución del problema
         int var1 = 10;
         int var2 = 2;
+        System.out.println("-------Solución a problema------------------");
         
+        int resultado = (Math.powExact(var1, var2) + var1);
+        
+        System.out.println(resultado);
                 
     }
 }
